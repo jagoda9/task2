@@ -9,8 +9,11 @@ W kodzie aplikacji dodane zostały odpowiednie działania w wyniku których czę
 ## Zadanie 2 - weryfikacja wycieku sekretów
 
 Widzimy, że w aplikacji *gitleaks* wykryte zostały wycieki sekretów. Po przyjrzeniu się im bliżej można uznać, że są to wykrycia realnych danych (nie są to wykrycia fałszywie pozytywne). Wśród skompromitowanych danych możemy zauważyć 4 wyniki dotyczące kluczy prywatnych. 
-![Alt text](https://raw.githubusercontent.com/jagoda9/task2/refs/heads/main/z1_wyciek_logow2.jpg)
+![Alt text](https://raw.githubusercontent.com/jagoda9/task2/refs/heads/main/wynik_gitleaks.jpg)
 ## Zadanie 3 - weryfikacja bezpieczeństwa bibliotek OpenSource wykorzystywanych w projekcie
+Fragment raportu:
+
+![Alt text](https://raw.githubusercontent.com/jagoda9/task2/refs/heads/main/fragment_raportu.jpg)
 
 Po wykonaniu podanej w instrukcji komendy uzyskany został raport zawierający informacje o podatnościach. Widzimy, że znajdują się tu informacje odnoszące się do trzech pakietów:
 - jinja2
